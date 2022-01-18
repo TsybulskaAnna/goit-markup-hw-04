@@ -69,9 +69,11 @@
           <h2 class="benefits-title" hidden>Преимущества</h2>
           <ul class="benefits-text">
             <li class="benefits-item details">
-              <svg class="benefits-images" width="70" height="70">
-                <use href="./images/sprite.svg#icon-antenna" ></use>
-              </svg>
+              <div class="benefits-images-svg">
+                <svg class="benefits-images" width="70" height="70">
+                  <use href="./images/sprite.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="benefits-title">Внимание к деталям</h3>
               <p>
                 Идейные соображения, а также начало повседневной работы по
@@ -79,9 +81,11 @@
               </p>
             </li>
             <li class="benefits-item time">
-              <svg class="benefits-images" width="70" height="70">
-                <use href="./images/sprite.svg#icon-clock" ></use>
-              </svg>
+              <div class="benefits-images-svg">
+                <svg class="benefits-images" width="70" height="70">
+                  <use href="./images/sprite.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="benefits-title">Пунктуальность</h3>
               <p>
                 Задача организации, в особенности же рамки и место обучения
@@ -89,9 +93,11 @@
               </p>
             </li>
             <li class="benefits-item plan">
-              <svg class="benefits-images" width="70" height="70">
-                <use href="./images/sprite.svg#icon-diagram" ></use>
-              </svg>
+              <div class="benefits-images-svg">
+                <svg class="benefits-images" width="70" height="70">
+                  <use href="./images/sprite.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="benefits-title">Планирование</h3>
               <p>
                 Равным образом консультация с широким активом в значительной
@@ -99,9 +105,11 @@
               </p>
             </li>
             <li class="benefits-item technology">
-              <svg class="benefits-images" width="70" height="70">
-                <use href="./images/sprite.svg#icon-technology" ></use>
-              </svg>
+              <div class="benefits-images-svg">
+                <svg class="benefits-images" width="70" height="70">
+                  <use href="./images/sprite.svg#icon-technology"></use>
+                </svg>
+              </div>
               <h3 class="benefits-title">Современные технологии</h3>
               <p>
                 Значимость этих проблем настолько очевидна, что реализация
@@ -309,34 +317,34 @@
       <section class="section-company section">
         <div class="container company">
           <h2 class="title">Постоянные клиенты</h2>
-          <ul class="company-img">
-            <li>
-              <svg class="company-title">
+          <ul class="company-images">
+            <li class="company-item">
+              <svg class="company-title" width="106" height="60">
                 <use href="/images/sprite.svg#icon-ya-go"></use>
               </svg>
             </li>
-            <li>
-              <svg class="company-title">
+            <li class="company-item">
+              <svg class="company-title" width="106" height="60">
                 <use href="/images/sprite.svg#icon-tage-line-her"></use>
               </svg>
             </li>
-            <li>
-              <svg class="company-title">
+            <li class="company-item">
+              <svg class="company-title" width="106" height="60">
                 <use href="/images/sprite.svg#icon-company"></use>
               </svg>
             </li>
-            <li>
-              <svg class="company-title">
+            <li class="company-item">
+              <svg class="company-title" width="106" height="60">
                 <use href="/images/sprite.svg#icon-foster-peters"></use>
               </svg>
             </li>
-            <li>
-              <svg class="company-title">
+            <li class="company-item">
+              <svg class="company-title" width="106" height="60">
                 <use href="/images/sprite.svg#icon-brand"></use>
               </svg>
             </li>
-            <li>
-              <svg class="company-title">
+            <li class="company-item">
+              <svg class="company-title" width="106" height="60">
                 <use href="/images/sprite.svg#icon-tag-line"></use>
               </svg>
             </li>
@@ -345,29 +353,64 @@
       </section>
     </main>
     <footer class="section-footer">
-      <div class="container">
-        <a href="" class="footer-logo">
-          Web<span class="span-second">Studio</span>
-        </a>
-        <address>
-          <ul class="contact-footer">
-            <li class="contact-text">
-              <a class="footer-text maps" href=""
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
+      <div class="container container-footer">
+        <div>
+          <a href="" class="footer-logo">
+            Web<span class="span-second">Studio</span>
+          </a>
+          <address>
+            <ul class="contact-footer">
+              <li class="contact-text-footer">
+                <a class="footer-text maps" href=""
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="contact-text-footer">
+                <a class="footer-text" href="mailto:info@devstudio.com">
+                  info@example.com</a
+                >
+              </li>
+              <li class="contact-text-footer">
+                <a class="footer-text" href="tel:+380991111111">
+                  +38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="container-icons-footer">
+          <h2 class="text-icon">присоединяйтесь</h2>
+          <ul class="socials-icon-footer">
+            <li class="social-cards">
+              <a class="social-link" href="" aria-label="Instagram">
+                <svg class="social-links-icons" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="contact-text">
-              <a class="footer-text" href="mailto:info@devstudio.com">
-                info@example.com</a
-              >
+            <li class="social-cards">
+              <a class="social-link" href="" aria-label="Twitter">
+                <svg class="social-links-icons" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-birt"></use>
+                </svg>
+              </a>
             </li>
-            <li class="contact-text">
-              <a class="footer-text" href="tel:+380991111111">
-                +38 099 111 11 11</a
-              >
+            <li class="social-cards">
+              <a class="social-link" href="" aria-label="Facebook">
+                <svg class="social-links-icons" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-cards">
+              <a class="social-link" href="" aria-label="Linkedin">
+                <svg class="social-links-icons" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
